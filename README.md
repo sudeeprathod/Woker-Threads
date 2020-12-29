@@ -2,12 +2,14 @@ before start
 run command "npm i"
 
 to run application type 
-node index.js
+"node index.js" in command line or terminal
 
 save Csv file Data using worker threads and divid data among worker threads
 
 method: post
+
 http://localhost:4000/api/users
+parameters
 {csvFile:data.csv}
 
 
